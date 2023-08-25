@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Adjust to your needs */
+    flex-direction: column;
+  }

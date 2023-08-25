@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "../src/styles/index.css"
+import Button from './components/Button';
+import Form from "./components/Form";
+import { Routes, Route, Link } from 'react-router-dom';
+import Home from "./components/Home";
+import Compare from "./components/Compare"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+   
+
+
+
+    <Routes>
+          <Route path="/paridhi" element={<Form/>} />
+          <Route path="/rudresh" element={<Form/>} />
+          <Route path="/" element={<Home/>}/>
+          <Route path="/compare" element={<Compare/>}/>
+         
+       </Routes>
+
+    
+    </>
+
+    
+  )
 }
 
 export default App;
