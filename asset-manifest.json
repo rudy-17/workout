@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/workout/static/css/main.3457dc03.css",
+    "main.css": "/workout/static/css/main.b0f719dd.css",
     "main.js": "/workout/static/js/main.0f2d4a0b.js",
     "static/js/787.c9bfbf0d.chunk.js": "/workout/static/js/787.c9bfbf0d.chunk.js",
     "static/media/main.png": "/workout/static/media/main.8afc271bcabd2c777504.png",
     "index.html": "/workout/index.html",
-    "main.3457dc03.css.map": "/workout/static/css/main.3457dc03.css.map",
+    "main.b0f719dd.css.map": "/workout/static/css/main.b0f719dd.css.map",
     "main.0f2d4a0b.js.map": "/workout/static/js/main.0f2d4a0b.js.map",
     "787.c9bfbf0d.chunk.js.map": "/workout/static/js/787.c9bfbf0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3457dc03.css",
+    "static/css/main.b0f719dd.css",
     "static/js/main.0f2d4a0b.js"
   ]
 }
